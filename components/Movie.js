@@ -44,16 +44,7 @@ function Movie(props) {
     }
     personalStars.push(<FontAwesomeIcon key={i} icon={faStar} onClick={() => setPersonalNote(i + 1)} style={style} className="note" />);
   }
-// const test = props.overview
-// console.log(test)
-  // const TruncatedText = ({ text, maxLength = 250 }) => {
 
-  //   const truncate = (text) => {
-  //     return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
-  //   };
-  
-  //   return {truncate(text)};
-  // };
  
 
   return (
